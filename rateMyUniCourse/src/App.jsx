@@ -11,27 +11,21 @@ import User from './User';
 
 function App() {
   return (
-    <div>
-    <Router>
-      <div className="relative min-h-screen">
-        <div className="absolute inset-0 bg-customer-background bg-cover bg-center bg-fixed"></div>
-        <div className="relative z-10">
-          <Navbar />
-          <div className="mt-32 mb-12 ">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/course" element={<Course />} />
-              <Route path="/teacher" element={<Teacher />} />
-              <Route path="/search" element={<Search />} />
-              <Route path="/user" element={<User />} />
-            </Routes>
-          </div>
-          <Footer />
+    <div className="relative min-h-screen flex flex-col bg-customer-background bg-cover bg-center bg-fixed">
+      <Router>
+        <Navbar />
+        <div className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/course" element={<Course />} />
+            <Route path="/teacher" element={<Teacher />} />
+            <Route path="/search" element={<Search />} />
+            <Route path="/user" element={<User />} />
+          </Routes>
         </div>
-      </div>
-    </Router>
-    
+        <Footer />
+      </Router>
     </div>
   );
 }
