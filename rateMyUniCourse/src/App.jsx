@@ -11,10 +11,10 @@ import User from './User';
 
 function App() {
   return (
-    <div className="relative min-h-screen flex flex-col bg-customer-background bg-cover bg-center bg-fixed">
+    <div>
       <Router>
         <Navbar />
-        <div className="flex-grow">
+        <div className="ml-10 mr-10 min-h-screen">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
