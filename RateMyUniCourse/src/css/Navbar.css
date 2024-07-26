@@ -1,0 +1,74 @@
+.NavbarContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.NavbarHeader {
+    background-color: rgb(49, 44, 44);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.WebsiteTitle {
+    text-align: center;
+    flex-grow: 1;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top:9px;
+    margin-bottom:9px;
+    padding-left:60px;
+}
+
+.NavbarButton {
+    display:flex;
+    position:relative;
+    top:0;
+    right:0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(48, 46, 46);
+    width:60px;
+    height:60px;
+}
+
+.NavbarButton:hover{
+    cursor: pointer;
+    background-color:rgba(201, 201, 201, 0.8);
+}
+
+.NavbarLinkContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(48, 46, 46, 0.8);
+    position: absolute;
+    width: auto;
+    max-height: 0;
+    overflow: hidden;
+    top: 100%;
+    right: 0;
+    transition: max-height 0.4s ease;
+    z-index:15;
+}
+
+.NavbarLinkContainer.show {
+    max-height: 500px;
+    overflow-y: auto;
+    z-index:10;
+}
+
+
+.NavbarLinkContainer a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.NavbarLinkContainer a:hover {
+    background-color: rgb(49, 44, 44);
+}

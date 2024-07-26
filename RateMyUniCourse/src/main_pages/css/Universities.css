@@ -1,0 +1,92 @@
+.UniversitiesContainer {
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .UniversitiesListContainer {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-left:40px;
+    margin-right:40px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom:30px;
+    align-items: center;
+    margin-bottom:30px;
+  }
+  
+  .UniversitiesTitle {
+    color: rgb(49, 44, 44);
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .UniversityCardGrid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .UniversitiesSearchArea{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .UniversitiesSearchBox{
+    width:400px;
+    height:40px;
+    margin:0px;
+    border-radius:50px;
+    margin-right:10px;
+    background-color:rgba(231, 231, 231, 0.5);
+    border-width: 2px;
+    border-color:rgb(0, 0, 0);
+    border-style: solid;
+    padding-left:20px;
+    padding-right:20px;
+    box-shadow: 0 1px 6px rgba(186, 186, 186, 0.5);
+    outline: none;
+  }
+  .UniversitiesSearchBox:hover{
+    border-color:rgb(175, 174, 174);
+    background-color:rgba(255, 255, 255, 0.5);
+  }
+
+  .UniversitiesSearchBox:focus{
+    border-color:rgb(0, 0, 0);
+    background-color:rgba(255, 255, 255, 0.5);
+  }
+
+  .UniversitiesSearchButton{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    border-width: 2px;
+    border-color:black;
+    background-color:black;
+    color:white;
+    outline: none;
+}
+
+.UniversitiesSearchButton svg{
+    width:20px;
+    height:20px;
+    stroke-width: 10;
+  }
+
+  .UniversitiesSearchButton:hover{
+    background-color:white;
+    color:black;
+    cursor: pointer;
+    outline: none;
+  }
+
+
+

@@ -1,0 +1,138 @@
+.CoursesContainer{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.CoursesListContainer{
+    display:flex;
+    flex-direction: column;
+    height:calc(100vh - 90px);
+    margin-left:40px;
+    margin-right:40px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom:30px;
+    align-items: center;
+}
+
+.CoursesTitle{
+    color: rgb(49, 44, 44);
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.CoursesSearchArea{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.CoursesSearchBox{
+    width:400px;
+    height:40px;
+    margin:0px;
+    border-radius:50px;
+    margin-right:10px;
+    background-color:rgba(231, 231, 231, 0.5);
+    border-width: 2px;
+    border-color:rgb(0, 0, 0);
+    border-style: solid;
+    padding-left:20px;
+    padding-right:20px;
+    box-shadow: 0 1px 6px rgba(186, 186, 186, 0.5);
+    outline: none;
+}
+
+.CoursesSearchBox:hover{
+    border-color:rgb(175, 174, 174);
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+.CoursesSearchBox:focus{
+    border-color:rgb(0, 0, 0);
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+.CoursesSearchButton{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    border-width: 2px;
+    border-color:rgba(48, 46, 46);
+    background-color:rgba(48, 46, 46);
+    color:white;
+    outline: none;
+}
+
+.CoursesSearchButton svg{
+    width:20px;
+    height:20px;
+    stroke-width: 10;
+    outline: none;
+}
+
+.CoursesSearchButton:hover{
+    background-color:white;
+    color:rgba(48, 46, 46);
+    cursor: pointer;
+}
+
+.CoursesTable{
+    border-collapse: collapse;
+    margin-top: 20px;
+    width:95%;
+    border-right: 1px solid rgba(48, 46, 46);
+    border-left: 1px solid rgba(48, 46, 46);
+    box-shadow: 0 2px 6px rgba(186, 186, 186, 0.5);
+}
+
+.CoursesTable th, .CoursesTable td{
+    text-align: center;
+    padding:10px;
+    border-bottom: 1px solid rgba(48, 46, 46);
+    border-top: 1px solid rgba(48, 46, 46);
+    border-right: none;
+    border-left: none;
+}
+
+.CoursesTable th{
+    background-color: rgba(48, 46, 46);
+    color:white;
+}
+.CoursesTable tbody tr{
+    cursor: pointer;
+}
+.CoursesTable tbody tr:hover{
+    cursor: pointer;
+    background-color:rgba(48, 46, 46, 0.2);
+}
+
+ .CourseUsefulness span{
+    background-color:rgb(72, 135, 47);
+    color:white;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+.CourseRate span{
+    background-color:rgb(72, 135, 47);
+    color:white;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+.CourseEasiness span{
+    background-color:rgb(72, 135, 47);
+    color:white;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+.CourseReviewNumber span{
+    background-color:rgb(249, 182, 100);
+    color:white;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
