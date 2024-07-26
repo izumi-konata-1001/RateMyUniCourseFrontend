@@ -1,7 +1,9 @@
 function Courses(){
 
     return(
-        <></>
+        <div>
+            Course
+        </div>
     );
 }
 
