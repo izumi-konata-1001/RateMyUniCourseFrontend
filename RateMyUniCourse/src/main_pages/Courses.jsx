@@ -28,8 +28,14 @@ function Courses() {
                         <SlMagnifier />
                     </button>
                 </div>
-                <div className="">
-                    
+                <div className="CoursesTagArea">
+                    <div className="CourseTage">Departure</div>
+                </div>
+                <div className="CoursesFilter">
+                    <div className="RateFilter">Rate</div>
+                    <div className="EasinessFilter">Easiness</div>
+                    <div className="UsefulnessFilter">Usefulness</div>
+                    <div className="ReviewNumberFilter">Review</div>
                 </div>
                 <table className="CoursesTable">
                     <thead>
