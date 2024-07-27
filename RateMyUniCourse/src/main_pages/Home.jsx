@@ -13,7 +13,7 @@ function Home() {
                     Search Your University
                 </div>
                 <div className="HomeSearchArea">
-                    <input className="HomeSearchBox" type="text" />
+                    <input className="HomeSearchBox" />
                     <button className="HomeSearchButton">
                         <SlMagnifier />
                     </button>
